@@ -11,7 +11,7 @@ availData = pd.read_csv("calendar_available_only.csv")
 
 
 @app.route("/")
-def home():
+def index():
 	# Visual 1
 	# Set up lists for x and y values in plotting
 	neighborhoodList = data["neighbourhood_cleansed"].value_counts()
@@ -89,7 +89,7 @@ def home():
 	bar_url3 = base64.b64encode(img.getvalue()).decode('UTF-8')
 	plt.clf()
 
-	return render_template("home.html", img1=bar_url1, img2=bar_url2, img3=bar_url3)
+	return render_template("index.html", img1=bar_url1, img2=bar_url2, img3=bar_url3)
 
 
 @app.route("/estimate", methods=["GET", "POST"])

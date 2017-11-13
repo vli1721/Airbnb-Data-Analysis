@@ -1,1 +1,7 @@
 Flask
+gunicorn
+pandas
+matplotlib
+numpy
+base64
+BytesIO

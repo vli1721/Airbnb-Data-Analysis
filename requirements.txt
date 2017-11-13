@@ -3,4 +3,3 @@ gunicorn
 pandas
 matplotlib
 numpy
-_tkinter

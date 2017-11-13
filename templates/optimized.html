@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Optimized Price
+{% endblock %}
+
+{% block main %}
+	<div align="center">
+		<p>Based on the previous year's data, the ideal price per night that will maximize the bookings revenue of property within 0.01 degrees latitude and 0.01 degrees latitude of <b>{{ latitude }}, {{ longitude }}</b> is </p>
+		<h3>${{ optimalPrice }}</h3>
+	</div>
+{% endblock %}

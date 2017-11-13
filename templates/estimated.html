@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Estimated Price
+{% endblock %}
+
+{% block main %}
+	<div align="center">
+		<p>Based on the previous year's data, your estimated weekly income of a property within 0.01 degrees latitude and 0.01 degrees latitude of <b>{{ latitude }}, {{ longitude }}</b> is </p>
+		<h3>${{ weeklyIncomeAvg }}</h3>
+	</div>
+{% endblock %}

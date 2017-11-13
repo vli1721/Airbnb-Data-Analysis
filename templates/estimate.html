@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Estimate Price
+{% endblock %}
+
+{% block main %}
+	<div align="center">
+		<h5>Enter geolocation (latitude and longitude) of a property in San Francisco to estimate the weekly average income the homeowner can make with Airbnb.</h5>
+		<p></p>
+	</div>
+	<div>
+		<form action="/estimate" method="post">
+	        <div class="form-group">
+	            <input autocomplete="off" autofocus class="form-control" name="latitude" placeholder="Latitude" type="text"/>
+	        </div>
+	        <div class="form-group">
+	            <input autocomplete="off" class="form-control" name="longitude" placeholder="Longitude" type="text"/>
+	        </div>
+	        <button class="btn btn-primary" type="submit">Submit</button>
+	    </form>
+	</div>
+{% endblock %}

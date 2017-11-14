@@ -9,7 +9,7 @@
     1. Based on data over 365 days, I decided to take the average of the weekly income values for Airbnb properties 0.01 degrees of latitude and 0.01 degrees of longitude within the given geolocation.  
 3. **Given geolocation of a property, determine ideal price per night to optimize Airbnb bookings revenue**  
     1. Based on data over 365 days, I decided to account for three factors (geolocation, number of bedrooms, and number of bathrooms) when determining the ideal price. I chose to incorporate data about the number of bedrooms and number of bathrooms in my analysis to increase the accuracy of the recommended optimal price per night. For this analysis, I also took the average of income values for Airbnb properties 0.01 degrees of latitude and 0.01 degrees of longitude within the given geolocation.  
-    2. Furthermore, in the HTML form for optimizing price, users can choose how many days of data to use when determining the optimal price. Users have options of the past 30 days, the past 60 dayas, the past 90 days, or the past 365 days.  
+    2. Furthermore, in the HTML form for optimizing price, users can choose how many days of data to use when determining the optimal price. Users have options of the past 30 days, the past 60 days, the past 90 days, or the past 365 days.  
 4. **Determine the San Francisco neighborhood that averages the most positive reviews**  
     1. Examining the second visualized trend, we can determine the neighborhood with the highest average for review scores.
   

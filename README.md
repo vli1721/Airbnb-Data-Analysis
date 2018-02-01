@@ -1,4 +1,4 @@
-# Capital One Airbnb Challenge 2017 #  
+# Airbnb Data Analysis #  
   
 [Heroku Link](https://guarded-tor-54790.herokuapp.com/)  
   
